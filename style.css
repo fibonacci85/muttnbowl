@@ -1,0 +1,121 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: cornsilk;
+  }
+
+  .navigationbar {
+      background-color:#e0721e;
+      color:white;
+      border: thin;
+      border-color: #28B463;
+      font-size: 21px;
+      font-weight: bolder;
+      height: 120px;
+  }
+  a:hover{
+      color:#28B463;
+      text-decoration: none;
+  }
+  a {
+      color: cornsilk;
+      text-decoration: none;
+  }
+  .logo {
+    padding-top: 1%;
+    padding-left: 5%;
+    float: left;
+}
+  .mainimages {
+      text-align: center;
+      padding-left: 0%;
+      padding-right: 0%;
+  }
+  
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  li {
+      display: inline;
+      padding-right: 30px;
+  }
+
+  .chihuahua {
+      text-align: right;
+      padding-bottom: 0%;
+  }
+
+.tagline1 {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color:#707B7C;
+font-size: 30px;
+}
+.tagline2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#28B463;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.tagline3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#28B463;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.greenfont {
+    color:#28B463;
+}
+.orangefont {
+    color:#e0721e;
+}
+.quality {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#707B7C;
+    font-weight: bolder;
+    font-size: 35px;
+}
+button {
+    align-items: center;
+    color:white;
+    background-color: #e0721e;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    cursor: pointer;
+    
+}
+.button {
+    text-align: center;
+}
+.button:hover {
+    background-color:#28B463; ;
+}
